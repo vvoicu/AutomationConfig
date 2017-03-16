@@ -1,0 +1,9 @@
+/home/vvoicu/git/AutomationConfig/src/test/java/com/tests/BaseTest.java
+/home/vvoicu/git/AutomationConfig/src/test/java/com/tests/package-info.java
+/home/vvoicu/git/AutomationConfig/src/test/java/com/tools/Constants.java
+/home/vvoicu/git/AutomationConfig/src/test/java/com/serenity/steps/EndUserSteps.java
+/home/vvoicu/git/AutomationConfig/src/test/java/com/tests/SearchByKeywordTest.java
+/home/vvoicu/git/AutomationConfig/src/test/java/com/serenity/steps/AbstractSteps.java
+/home/vvoicu/git/AutomationConfig/src/test/java/com/serenity/pages/DictionaryPage.java
+/home/vvoicu/git/AutomationConfig/src/test/java/com/tools/ConfigUtils.java
+/home/vvoicu/git/AutomationConfig/src/test/java/com/serenity/pages/AbstractPage.java

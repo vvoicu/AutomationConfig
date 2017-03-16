@@ -1,9 +1,10 @@
-package com.tests;
+package com.tests.wiki.search;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import com.serenity.steps.EndUserSteps;
+import com.serenity.wiki.steps.EndUserSteps;
+import com.tests.BaseTest;
 import com.tools.ConfigUtils;
 
 import net.serenitybdd.junit.runners.SerenityRunner;

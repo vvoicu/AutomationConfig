@@ -1,10 +1,11 @@
-package com.serenity.steps;
+package com.serenity.wiki.steps;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.hasItem;
 
-import com.serenity.pages.DictionaryPage;
+import com.serenity.AbstractSteps;
+import com.serenity.wiki.pages.DictionaryPage;
 
 import net.thucydides.core.annotations.Step;
 

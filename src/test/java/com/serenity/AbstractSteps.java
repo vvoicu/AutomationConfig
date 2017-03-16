@@ -1,6 +1,4 @@
-package com.serenity.steps;
-
-import com.serenity.pages.AbstractPage;
+package com.serenity;
 
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;

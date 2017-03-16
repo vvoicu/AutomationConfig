@@ -17,9 +17,9 @@ public class ConfigUtils {
 		return getProperty("browserType");
 	}
 
-	public static String getChromePath() {
-		return getProperty("chromePath");
-	}
+//	public static String getChromePath() {
+//		return getProperty("chromePath");
+//	}
 
 	public static String getProperty(String propertyKey) {
 		String result = "";
@@ -39,6 +39,7 @@ public class ConfigUtils {
 				}
 			}
 		}
+		System.out.println(result);
 		return result;
 	}
 

@@ -1,4 +1,4 @@
-package com.serenity.pages;
+package com.serenity;
 
 import org.openqa.selenium.JavascriptExecutor;
 

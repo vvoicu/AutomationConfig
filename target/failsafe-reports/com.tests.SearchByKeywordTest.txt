@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.tests.SearchByKeywordTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 1.542 sec <<< FAILURE! - in com.tests.SearchByKeywordTest
+searching_by_keyword_banana_should_display_the_corresponding_article(com.tests.SearchByKeywordTest)  Time elapsed: 0.379 sec  <<< ERROR!
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate new webdriver instance of type class org.openqa.selenium.chrome.ChromeDriver (The path to the chromedriver driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://sites.google.com/a/chromium.org/chromedriver/downloads. The latest version can be downloaded from https://sites.google.com/a/chromium.org/chromedriver/downloads
+	at com.serenity.pages.AbstractPage.navigateTo(AbstractPage.java:12)
+	at com.serenity.steps.AbstractSteps.navigateTo(AbstractSteps.java:15)
+	at com.tests.SearchByKeywordTest.searching_by_keyword_banana_should_display_the_corresponding_article(SearchByKeywordTest.java:32)
+
+searching_by_keyword_apple_should_display_the_corresponding_article(com.tests.SearchByKeywordTest)  Time elapsed: 0.1 sec  <<< ERROR!
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate new webdriver instance of type class org.openqa.selenium.chrome.ChromeDriver (The path to the chromedriver driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://sites.google.com/a/chromium.org/chromedriver/downloads. The latest version can be downloaded from https://sites.google.com/a/chromium.org/chromedriver/downloads
+	at com.serenity.pages.AbstractPage.navigateTo(AbstractPage.java:12)
+	at com.serenity.steps.AbstractSteps.navigateTo(AbstractSteps.java:15)
+	at com.tests.SearchByKeywordTest.searching_by_keyword_apple_should_display_the_corresponding_article(SearchByKeywordTest.java:24)
+

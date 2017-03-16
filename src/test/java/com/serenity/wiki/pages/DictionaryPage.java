@@ -1,4 +1,4 @@
-package com.serenity.pages;
+package com.serenity.wiki.pages;
 
 import static ch.lambdaj.Lambda.convert;
 
@@ -6,6 +6,8 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+
+import com.serenity.AbstractPage;
 
 import ch.lambdaj.function.convert.Converter;
 import net.serenitybdd.core.annotations.findby.FindBy;

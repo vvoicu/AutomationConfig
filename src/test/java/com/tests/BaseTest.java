@@ -3,8 +3,6 @@ package com.tests;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 
-import com.tools.ConfigUtils;
-
 import net.thucydides.core.annotations.Managed;
 
 public class BaseTest {
@@ -14,6 +12,6 @@ public class BaseTest {
 
 	@Before
 	public void variableSetup() {
-		System.setProperty("webdriver.chrome.driver", ConfigUtils.getChromePath());
+//		System.setProperty("webdriver.chrome.driver", ConfigUtils.getChromePath());
 	}
 }
