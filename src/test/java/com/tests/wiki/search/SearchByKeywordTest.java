@@ -6,6 +6,8 @@ import org.junit.runner.RunWith;
 import com.serenity.wiki.steps.EndUserSteps;
 import com.tests.BaseTest;
 import com.tools.ConfigUtils;
+import com.tools.FieldGenerators;
+import com.tools.FieldGenerators.Mode;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Issue;
@@ -23,7 +25,9 @@ public class SearchByKeywordTest extends BaseTest{
     @Test
     public void searching_by_keyword_apple_should_display_the_corresponding_article() {
         endUserSteps.navigateTo(ConfigUtils.getBaseUrl());
-        endUserSteps.looks_for("apple");
+        endUserSteps.looks_for(FieldGenerators.generateRandomString(10, Mode.ALPHANUMERIC));
+        
+//        endUserSteps.looks_for("apple");
         endUserSteps.should_see_definition("A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.");
 
     }
